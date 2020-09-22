@@ -370,5 +370,68 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "address": "rua pontes",
+      "number": "12",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItens": [
+        {
+          "quantity": 1,
+          "menuId": "zlasagna"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "rua da ",
+      "number": "12",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItens": [
+        {
+          "quantity": 2,
+          "menuId": "greensandwich"
+        },
+        {
+          "quantity": 1,
+          "menuId": "ceasar"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "address": "rua teste",
+      "number": "112",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItens": [
+        {
+          "quantity": 2,
+          "menuId": "zlasagna"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "address": "santos dumont",
+      "number": "50",
+      "optionalAddress": "apto 20",
+      "paymentOption": "DEB",
+      "orderItens": [
+        {
+          "quantity": 1,
+          "menuId": "cup"
+        }
+      ],
+      "id": 6
+    }
+  ]
 }
